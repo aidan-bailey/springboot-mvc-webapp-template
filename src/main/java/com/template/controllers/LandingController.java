@@ -1,4 +1,4 @@
-package com.repgraph.controllers;
+package com.template.controllers;
 
 import java.io.IOException;
 import java.nio.file.Files;
