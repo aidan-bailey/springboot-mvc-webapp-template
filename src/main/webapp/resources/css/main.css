@@ -1,0 +1,46 @@
+* {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.list-group {
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.jumbotron {
+    min-height: 500px;
+}
+
+.blue-container {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 1em;
+    padding: 75px;
+}
+
+.blue-containerSmall {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+td {
+    cursor: pointer;
+}
+
+.tableWrapper {
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+}
